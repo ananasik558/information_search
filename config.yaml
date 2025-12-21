@@ -1,0 +1,11 @@
+db:
+  host: localhost
+  port: 27017
+  name: ir_corpus
+  collection: documents
+
+logic:
+  delay: 1.5
+  max_docs: 50000
+
+titles_file: "data/titles_en.txt"
